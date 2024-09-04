@@ -45,10 +45,17 @@ p {
     color: #333;
     line-height: 1.5;
 }
-ul {
-    color: #333;
-    margin-left: 20px;
+ul.custom-list {
+   list-style: none;
+    padding-left: 0px;
 }
+
+ul.custom-list li::before {
+    content: "*";
+    margin-right: 8px; /* Space between the asterisk and the text */
+}
+
+
 .form-group {
     margin-bottom: 15px;
 }
