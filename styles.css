@@ -19,6 +19,12 @@ body {
     align-items: center;
 }
 
+img {
+    max-width: 100%; /* Image scales down to fit the container */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+
 .left-align {
    text-align: left;
 }
